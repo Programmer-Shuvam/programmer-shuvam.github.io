@@ -1,25 +1,11 @@
-/**
-* Template Name: iPortfolio - v3.3.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
 
 a {
-  color: #149ddd;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #37b3ed;
+  color: #800000;
   text-decoration: none;
 }
 
@@ -37,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #800000;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -50,9 +36,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 
-.back-to-top:hover {
-  background: #2eafec;
-  color: #fff;
+.back-to-top i:hover {
+  color: #000000;
 }
 
 .back-to-top.active {
@@ -114,9 +99,31 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-#header .profile .social-links a:hover {
-  background: #149ddd;
+#header .profile .social-links .facebook:hover {
+  background:#4267B2;
   color: #fff;
+  text-decoration: none;
+}
+#header .profile .social-links .twitter:hover {
+  background:#1DA1F2;
+  color: #fff;
+  text-decoration: none;
+}
+#header .profile .social-links .instagram:hover {
+  /* background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); */
+  color: #fff;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  text-decoration: none;
+}
+#header .profile .social-links .github:hover {
+  background:#f5f5f5;
+  color: #212431;
+  text-decoration: none;
+}
+#header .profile .social-links .linkedin:hover {
+  background:#0077b5;
+  color: #caccce;
   text-decoration: none;
 }
 
@@ -174,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
-  color: #149ddd;
+  color: #800000;
 }
 
 /* Mobile Navigation */
@@ -305,7 +312,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #800000;
   bottom: 0;
   left: 0;
 }
@@ -417,7 +424,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #091e3a;
 }
 
 .skills .progress .skill .val {
@@ -434,7 +441,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #149ddd;
+  background-color: #800000;
 }
 
 /*--------------------------------------------------------------
@@ -451,7 +458,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #800000;
   position: relative;
 }
 
