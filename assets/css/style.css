@@ -5,7 +5,7 @@ body {
 }
 
 a {
-  color: #800000;
+  color: #B13E0F;
   text-decoration: none;
 }
 
@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #800000;
+  background: #B13E0F;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
-  color: #800000;
+  color: #B13E0F;
 }
 
 /* Mobile Navigation */
@@ -313,7 +313,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #800000;
+  background: #B13E0F;
   bottom: 0;
   left: 0;
 }
@@ -442,7 +442,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #800000;
+  background-color: #B13E0F;
 }
 
 /*--------------------------------------------------------------
@@ -459,7 +459,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #800000;
+  border-left: 2px solid #B13E0F;
   position: relative;
 }
 
