@@ -404,6 +404,10 @@ section {
   padding-bottom: 10px;
 }
 
+.resume a:hover{
+  color: #B13E0F;
+}
+
 .resume .resume-item:last-child {
   padding-bottom: 0;
 }
