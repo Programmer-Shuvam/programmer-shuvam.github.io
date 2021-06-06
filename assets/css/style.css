@@ -219,7 +219,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   background-size: cover;
-  text-align: end;
 }
 
 #hero:before {
@@ -264,6 +263,13 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+    text-align: end;
+  }
+}
+
+@media (max-width: 1024px) {
+  #hero {
+    text-align: center;
   }
 }
 
