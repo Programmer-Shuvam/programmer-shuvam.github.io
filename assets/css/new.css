@@ -3,27 +3,6 @@
     padding: 50px;
   }
   
-  .projectsection.prospero {
-    position: static;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    overflow: hidden;
-    padding: 50px 50px 0px;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    background-image: url("https://assets.website-files.com/58dcb5f0d33f36ec64a437df/58dcd22d9d881f2d2cd29808_01-ProsperoBG.jpg");
-    background-position: 0px 0px;
-    background-size: cover;
-  }
-  
   .projectsection.appfront {
     display: -webkit-box;
     display: -webkit-flex;
