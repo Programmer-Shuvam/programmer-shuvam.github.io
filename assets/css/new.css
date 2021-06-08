@@ -30,7 +30,7 @@
   }
   
   .projectcontent {
-    width: 420px;
+    width: auto;
   }
 
   .projecth2-white {
@@ -120,7 +120,9 @@
   }
   @media screen and (max-width: 479px) {
     .projectsection.appfront {
-    padding: 10px 30px 0px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .projectcontent{
     width: auto;
