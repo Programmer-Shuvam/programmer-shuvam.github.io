@@ -267,7 +267,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1129px) {
   #hero {
     text-align: center;
   }
@@ -276,9 +276,39 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 866px) {
   #hero{
     background: url("../img/intro.jpeg");
+    background-size: 866px auto;
+    height: 100vh;
+  }
+}
+@media (max-width: 800px) {
+  #hero{
+    background: url("../img/intro.jpeg");
+    background-size: 800px auto;
+    height: 100vh;
+  }
+}
+@media (max-width: 700px) {
+  #hero{
+    background: url("../img/intro.jpeg");
+    background-size: 700px 80vh;
+    height: 80vh;
+  }
+}
+@media (max-width: 600px) {
+  #hero{
+    background: url("../img/intro.jpeg");
+    background-size: 600px 80vh;
+    height: 80vh;
   }
 }
 
+@media (max-width: 500px) {
+  #hero{
+    background: url("../img/intro.jpeg");
+    background-size: 500px 80vh;
+    height: 80vh;
+  }
+}
 @media (max-width: 768px) {
 
   #hero h1 {
